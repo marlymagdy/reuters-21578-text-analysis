@@ -82,9 +82,18 @@ This shows **"doc_0" and "doc_2" are completely dissimilar.**
 
 ---
 
-## 🛠 Key Insights
-- **Clusters of similarity** can be discovered among documents, useful for grouping by topics/places.  
-- **Outliers** (high dissimilarity) can be identified as unique documents.  
-- The combination of **cosine similarity, Jaccard distance, and heatmaps** provides a strong framework for analyzing relationships in text data.  
+## 🔹 Data Transformation
+- Segregated dataset into **training** and **testing** based on `lewissplit`.  
+- Applied **TF-IDF vectorization** on the document `Body` text.  
+- Converted labels to binary:  
+  - `1` → *earn*  
+  - `0` → *others*  
+- Handled **imbalanced data** using **SMOTE** to oversample minority class in training data.  
 
 ---
+
+## 🤖 Modelling
+- Built a **Linear Support Vector Classifier (LinearSVC)**, which achieved **99% accuracy, precision, recall, and F1-score** on the training set, demonstrating excellent classification performance after balancing the dataset with SMOTE.  
+
+---
+
