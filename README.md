@@ -1,5 +1,6 @@
 # reuters-21578-text-analysis
-Analysis of the Reuters-21578 dataset focusing on similarity and dissimilarity of documents using cosine similarity, Jaccard distance, and Euclidean distance. Includes clustering and classification insights based on Places and Topics, with heatmap visualizations to highlight document relationships.
+This project analyzes the **Reuters-21578 dataset**, focusing on **text similarity and dissimilarity** as well as **document classification**.  
+We explore the relationships between documents using **cosine similarity, Jaccard distance, and Euclidean distance**, visualize results with heatmaps, and classify articles using a **Linear Support Vector Classifier** with SMOTE to handle imbalanced data.
 
 ## 📂 Dataset Overview
 The **Reuters-21578 dataset** is a well-known benchmark collection of news articles widely used in **text classification** and **information retrieval** research.  
