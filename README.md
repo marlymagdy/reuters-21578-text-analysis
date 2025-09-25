@@ -17,9 +17,8 @@ Each article is enclosed within SGML tags with explicit attributes:
 - **OLDID**: Original Reuters-22173 ID  
 - **NEWID**: New Reuters-21578 ID  
 
----
 
-## 🏷 Document Structure
+### 🏷 Document Structure
 Articles are organized with SGML tags that mark important fields such as:  
 
 - `<DATE>` → publication date  
@@ -50,9 +49,8 @@ To explore document relationships, I computed **similarity and dissimilarity mat
 - Represents how different documents are.  
 - Useful for **clustering** (grouping similar documents) and **classification**.  
 
----
 
-## 🎨 Heatmap Visualization
+### 🎨 Heatmap Visualization
 A heatmap of the dissimilarity matrix was created:  
 
 - **Darker colors:** higher dissimilarity (more different)  
